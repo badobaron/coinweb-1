@@ -1,0 +1,17 @@
+<head>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+<body>
+[sdasd<div id="output_box"></div>]
+
+<script>
+$(document).ready(function() {
+  $.ajaxSetup({ cache: false }); // This part addresses an IE bug.  without it, IE will only load the first number and will never refresh
+  var my_refresh = setInterval(function() {
+    $('#output_box').load('/get_log/');
+  }, 1000); // the "1000"
+});
+
+</script>
+</body>

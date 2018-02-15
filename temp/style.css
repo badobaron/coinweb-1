@@ -1,0 +1,168 @@
+
+
+.tabs .indicator {
+    color: #039be5 !important;
+    background-color: #039be5 !important;
+}
+ 
+nav{
+    background-color: #607d8b;
+}
+
+.nav-content{
+    
+    margin : auto;
+    margin-top: 3%
+}
+.brand-logo{
+    font-size: 28px;
+    text-align: center
+}
+
+img{
+    padding: 0;
+    margin-top: +10px;
+    margin-left:auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+.tabs.tabs-transparent .tab a, .tabs.tabs-transparent .tab.disabled a, .tabs.tabs-transparent .tab.disabled a:hover{
+    color: rgba(255,255,255,1);
+}
+
+
+.tabs .tab {
+    height: 80px;
+    line-height: 70px;
+}
+
+.tabs .tab a {
+    height: 80px;
+}
+
+.tab img{
+    align-content: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: -15px;
+    font-size: 24px;
+
+}
+
+.tabs-content.carousel { 
+    height: 100%; 
+    width: 100%;
+    overflow-x:hidden; 
+    overflow-y: scroll;
+ } 
+ .tabs-content.carousel .carousel-item { 
+     width: 100%; 
+     height: 100%; 
+    } 
+    html,body{ 
+        overflow:hidden; 
+        height:100%; 
+    }
+
+
+
+
+.row{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.card-panel{
+    
+    padding-left: 2%;
+    margin: 0;
+    padding-bottom: 2%;
+    width: 100%;
+    height: 170px ;
+    border-color: white;
+    text-align: left;
+    
+}
+.col s12{
+    margin: 0%;
+    padding: 0%;
+}
+.cards{
+    text-align: center;
+    margin:0;
+    padding-top: 4%;
+    font-size: 18px;
+}
+
+.inr{
+    font-size: 14px;
+}
+
+.clear{
+    clear:both;
+}
+.Buy{
+    padding-top: 1%;
+    margin-left: 0%;
+    font-size: 16px;
+}
+.Sell{
+    padding-top: 1%;
+    margin-right: 2%;
+    font-size: 16px;
+}
+
+
+
+
+@media only screen and (max-width: 1300px)  {
+
+
+
+    .card-panel{
+        text-align: left;
+        padding-left: 3%;
+        margin: 0;
+        padding-top: 3%;
+        width: 100%;
+        height: 140px ;
+        border-color: white;
+        
+    }
+    
+}
+
+
+@media only screen and (max-width: 900px)  {
+
+
+
+    .card-panel{
+        text-align: left;
+        padding-left: 4%;
+        margin: 0;
+        padding-top: 3%;
+        width: 100%;
+        height: 115px ;
+        border-color: white;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 500px)  {
+
+
+
+    .card-panel{
+        padding-left: 4%;
+        
+        padding-top: 3%;
+        width: 100%;
+        height: 100px ;
+        border-color: white;
+        
+    }
+    
+}
