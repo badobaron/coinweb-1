@@ -3,14 +3,140 @@
 </head>
 
 <body>
-[sdasd<div id="output_box"></div>]
+<p id="output_box"></p>
+
+<!--start of variables. Replace template placeholders with these tags.-->
+<p id="uc_btc_by"></p>
+<p id="uc_btc_sl"></p>
+<p id="zp_btc_by"></p>
+<p id="zp_btc_sl"></p>
+<p id="kx_eth_by"></p>
+<p id="kx_eth_sl"></p>
+<p id="kx_btc_by"></p>
+<p id="kx_btc_sl"></p>
+<p id="kx_ltc_by"></p>
+<p id="kx_ltc_sl"></p>
+<p id="kx_bch_by"></p>
+<p id="kx_bch_sl"></p>
+<p id="kx_xrp_by"></p>
+<p id="kx_xrp_sl"></p>
+<p id="bu_btc_by"></p>
+<p id="bu_btc_sl"></p>
+<p id="cs_btc_by"></p>
+<p id="cs_btc_sl"></p>
+<p id="ex_eth_by"></p>
+<p id="ex_eth_sl"></p>
+<p id="bx_xrp_by"></p>
+<p id="bx_xrp_sl"></p>
+<p id="cn_btc_by"></p>
+<p id="cn_btc_sl"></p>
+<p id="cn_bch_by"></p>
+<p id="cn_bch_sl"></p>
+<p id="cn_ltc_by"></p>
+<p id="cn_ltc_sl"></p>
+<p id="pb_btc_by"></p>
+<p id="pb_btc_sl"></p>
+<p id="cd_btc_by"></p>
+<p id="cd_btc_sl"></p>
+<p id="cd_eth_by"></p>
+<p id="cd_eth_sl"></p>
+<p id="cd_ltc_by"></p>
+<p id="cd_ltc_sl"></p>
+<p id="cd_bch_by"></p>
+<p id="cd_bch_sl"></p>
+<p id="cd_xrp_by"></p>
+<p id="cd_xrp_sl"></p>
+<p id="bt_btc_by"></p>
+<p id="bt_btc_sl"></p>
+<p id="bt_eth_by"></p>
+<p id="bt_eth_sl"></p>
+<p id="bt_bch_by"></p>
+<p id="bt_bch_sl"></p>
+<p id="bt_ltc_by"></p>
+<p id="bt_ltc_sl"></p>
+<p id="bt_xrp_by"></p>
+<p id="bt_xrp_sl"></p>
+<p id="bt_btc_by_fr"></p>
+<p id="bt_btc_sl_fr"></p>
+<p id="bt_eth_by_fr"></p>
+<p id="bt_eth_sl_fr"></p>
+<p id="bt_bch_by_fr"></p>
+<p id="bt_bch_sl_fr"></p>
+<p id="bt_ltc_by_fr"></p>
+<p id="bt_ltc_sl_fr"></p>
+<p id="bt_xrp_by_fr"></p>
+<p id="bt_xrp_sl_fr"></p>
+
+<!--end of variables-->
+
 
 <script>
 $(document).ready(function() {
-  $.ajaxSetup({ cache: false }); // This part addresses an IE bug.  without it, IE will only load the first number and will never refresh
+  $.ajaxSetup({ cache: false });
   var my_refresh = setInterval(function() {
     $('#output_box').load('/get_log/');
-  }, 1000); // the "1000"
+    $('#uc_btc_by').load('/uc_btc_by/');
+    $('#uc_btc_sl').load('/uc_btc_sl/');
+    $('#zp_btc_by').load('/zp_btc_by/');
+    $('#zp_btc_sl').load('/zp_btc_sl/');
+    $('#kx_eth_by').load('/kx_eth_by/');
+    $('#kx_eth_sl').load('/kx_eth_sl/');
+    $('#kx_btc_by').load('/kx_btc_by/');
+    $('#kx_btc_sl').load('/kx_btc_by/');
+    $('#kx_ltc_by').load('/kx_ltc_by/');
+    $('#kx_ltc_sl').load('/kx_ltc_sl/');
+    $('#kx_bch_by').load('/kx_bch_by/');
+    $('#kx_bch_sl').load('/kx_bch_by/');
+    $('#kx_xrp_by').load('/kx_xrp_by/');
+    $('#kx_xrp_sl').load('/kx_xrp_sl/');
+    $('#bu_btc_by').load('/bu_btc_by/');
+    $('#bu_btc_sl').load('/bu_btc_sl/');
+    $('#cs_btc_by').load('/cs_btc_by/');
+    $('#cs_btc_sl').load('/cs_btc_sl/');
+    $('#ex_eth_by').load('/ex_eth_by/');
+    $('#ex_eth_sl').load('/ex_eth_sl/');
+    $('#bx_xrp_by').load('/bx_xrp_by/');
+    $('#bx_xrp_sl').load('/bx_xrp_sl/');
+    $('#cn_btc_by').load('/cn_btc_by/');
+    $('#cn_btc_sl').load('/cn_btc_sl/');
+    $('#cn_bch_by').load('/cn_bch_by/');
+    $('#cn_bch_sl').load('/cn_bch_sl/');
+    $('#cn_xrp_by').load('/cn_xrp_by/');
+    $('#cn_xrp_sl').load('/cn_xrp_sl/');
+    $('#pb_btc_by').load('/pb_btc_by/');
+    $('#pb_btc_sl').load('/pb_btc_sl/');
+    $('#cd_btc_by').load('/cd_btc_by/');
+    $('#cd_btc_sl').load('/cd_btc_sl/');
+    $('#cd_eth_by').load('/cd_eth_by/');
+    $('#cd_eth_sl').load('/cd_eth_sl/');
+    $('#cd_ltc_by').load('/cd_ltc_by/');
+    $('#cd_ltc_sl').load('/cd_ltc_sl/');
+    $('#cd_bch_by').load('/cd_bch_by/');
+    $('#cd_bch_sl').load('/cd_bch_sl/');
+    $('#cd_xrp_by').load('/cd_xrp_by/');
+    $('#cd_xrp_sl').load('/cd_xrp_sl/');
+    $('#bt_btc_by').load('/bt_btc_by/');
+    $('#bt_btc_sl').load('/bt_btc_sl/');
+    $('#bt_eth_by').load('/bt_eth_by/');
+    $('#bt_eth_sl').load('/bt_eth_sl/');
+    $('#bt_bch_by').load('/bt_bch_by/');
+    $('#bt_bch_sl').load('/bt_bch_sl/');
+    $('#bt_ltc_by').load('/bt_ltc_by/');
+    $('#bt_ltc_sl').load('/bt_ltc_sl/');
+    $('#bt_xrp_by').load('/bt_xrp_by/');
+    $('#bt_xrp_sl').load('/bt_xrp_sl/');
+    $('#bt_btc_sl_fr').load('/bt_btc_by_fr/');
+    $('#bt_btc_sl_fr').load('/bt_btc_sl_fr/');
+    $('#bt_eth_by_fr').load('/bt_eth_by_fr/');
+    $('#bt_eth_sl_fr').load('/bt_eth_sl_fr/');
+    $('#bt_bch_by_fr').load('/bt_bch_by_fr/');
+    $('#bt_bch_by_fr').load('/bt_bch_sl_fr/');
+    $('#bt_ltc_by_fr').load('/bt_ltc_by_fr/');
+    $('#bt_ltc_by_fr').load('/bt_ltc_sl_fr/');
+    $('#bt_xrp_by_fr').load('/bt_xrp_by_fr/');
+    $('#bt_xrp_by_fr').load('/bt_xrp_sl_fr/');
+    
+  }, 1000);
 });
 
 </script>
