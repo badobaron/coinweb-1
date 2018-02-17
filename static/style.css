@@ -1,0 +1,116 @@
+body{
+			color: #808080;
+			}
+			.card-title{
+			margin-left: 15px;
+			margin-top: 15px;
+			float: left;
+			font-size: 18px;
+			}
+			.mdl-layout__header-row {
+			padding-left: 59px;
+			}
+			/* resizing tab bar container*/
+			.mdl-layout__tab-bar-container{
+				height: 60px;
+			}
+
+			/*increasing tab size and vertical position of TEXT */
+			.mdl-layout--fixed-tabs .mdl-layout__tab {
+				height: 60px;
+    			line-height: 70px;
+			}
+			/*increasing tab size and a tags */
+			.mdl-layout--fixed-tabs .mdl-layout__tab a {
+				height: 60px;
+    			
+			}
+
+			/*positioning image above text */
+			.mdl-layout__tab-bar img{
+				align-content: center;
+				display: block;
+				margin-top: 15px;
+				margin-bottom: -20px;
+				font-size: 24px;
+			}
+			
+			/* image styling */
+			img{
+			padding: 0;
+			margin-top: +10px;
+			margin-left:auto;
+			margin-right: auto;
+			align-content: center;
+}
+
+			.buy{
+			float: left;
+			margin-left: 15px;
+			margin-top: 7px;
+			font-size: 15px;
+			}
+			.bsdata{
+			font-weight: bold;
+			font-style: italic;
+			}
+			.sell{
+			margin-right: 15px;
+			margin-top: 7px;
+			font-size: 15px;
+			float: right;
+			}
+			.from{
+			margin-left: 15px;
+			font-size: 15px;
+			float: left;
+			}
+			.to{
+			margin-right: 15px;
+			font-size: 15px;
+			float: right;
+			}
+			.best_card{
+			background-color: #B2DFDB;
+			}
+			.drawer-head{
+			height: 124px;
+			background-color: #607D8B;
+			width: 100%;
+			}
+			.drawer-head-content{
+			margin-top: 15px;
+			margin-left: 15px;
+			}
+			.inr{
+			font-size: 15px;
+			}
+			.drawer-brand-name{
+			font-size: 18px;
+			color: #FFFFFF;
+			margin-left: 15px;
+			margin-top: 10px;
+			}
+			.drawer-brand-email{
+			font-size: 15px;
+			margin-left: 15px;
+			color: #FFFFFF;
+			}
+			.drawer-items{
+			margin-left: 15px;
+			font-size: 15px;
+			}
+			.drawer-item{
+			width: 225px;
+			}
+			.bdata{
+			color: #4CAF50;
+			}
+			.sdata{
+			color: #F44336;
+			}
+			a
+			{
+			text-decoration : none;
+			color : #000;
+			}

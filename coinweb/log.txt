@@ -268,3 +268,1721 @@ Traceback (most recent call last):
     raise JSONDecodeError("Expecting value", s, err.value) from None
 json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 
+DateTime : 2018-02-17 00:10:33.283102
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:10:55.672413
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:11:16.909624
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:11:47.147991
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:12:25.224510
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:12:40.193133
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:13:05.313251
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:13:29.398414
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:13:51.125900
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:14:17.245164
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:14:50.808498
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:15:15.463651
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:15:43.535362
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:16:05.689170
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 498, in scrape_data
+    soup6 = html6.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:16:05.816107
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:16:26.133938
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:16:46.180186
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:17:05.998028
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 498, in scrape_data
+    soup6 = html6.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:17:06.116261
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:17:27.138286
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:17:53.424902
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:18:17.873416
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:18:44.195390
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:19:06.282181
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:19:27.485440
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:19:58.728732
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:20:26.772828
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:20:47.113435
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:21:05.455822
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 498, in scrape_data
+    soup6 = html6.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:21:05.589399
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:21:33.877775
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:21:55.605730
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:22:12.786557
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:22:37.601110
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:22:55.802568
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:23:37.808109
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:24:03.280855
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:24:20.510625
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:24:38.339947
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 539, in scrape_data
+    soup8 = html8.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:24:45.505051
+local variable 'coinome_dash_buy' referenced before assignment
+Traceback (most recent call last):
+  File ".\scraping.py", line 720, in scrape_data
+    dash_buy_dict['coinome'] = coinome_dash_buy
+UnboundLocalError: local variable 'coinome_dash_buy' referenced before assignment
+
+DateTime : 2018-02-17 00:24:45.510566
+min() arg is an empty sequence
+Traceback (most recent call last):
+  File ".\scraping.py", line 833, in scrape_data
+    best_dash_buy = min(dash_buy_dict.values())
+ValueError: min() arg is an empty sequence
+
+DateTime : 2018-02-17 00:24:45.519103
+min() arg is an empty sequence
+Traceback (most recent call last):
+  File ".\scraping.py", line 879, in scrape_data
+    best_dash_buy_from = (min(dash_buy_dict, key = dash_buy_dict.get))
+ValueError: min() arg is an empty sequence
+
+DateTime : 2018-02-17 00:25:07.470807
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:25:43.406802
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:26:04.425980
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 498, in scrape_data
+    soup6 = html6.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:26:04.530071
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:26:26.983218
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:27:03.150422
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:27:28.090717
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:28:08.087854
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:28:32.895339
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:29:13.922143
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:29:36.239440
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:29:53.960104
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:30:14.154509
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:30:38.387737
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:31:05.074325
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 498, in scrape_data
+    soup6 = html6.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:31:05.175611
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:31:27.313182
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:31:58.107801
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:32:27.415041
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:32:48.107708
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:33:07.321012
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 00:33:26.385952
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:17:10.388985
+('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))
+Traceback (most recent call last):
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\ssl_.py", line 329, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 814, in __init__
+    self.do_handshake()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 1068, in do_handshake
+    self._sslobj.do_handshake()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\ssl_.py", line 329, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 814, in __init__
+    self.do_handshake()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 1068, in do_handshake
+    self._sslobj.do_handshake()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ".\scraping.py", line 447, in scrape_data
+    html_buyucoin = bscraper.get("https://www.buyucoin.com/api/v1/btc")
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cfscrape\__init__.py", line 39, in request
+    resp = super(CloudflareScraper, self).request(method, url, *args, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))
+
+DateTime : 2018-02-17 10:17:32.436731
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:18:06.912280
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 498, in scrape_data
+    soup6 = html6.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:18:07.518085
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:18:38.645830
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:19:28.466688
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:20:04.934520
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 498, in scrape_data
+    soup6 = html6.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:20:05.600115
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:20:30.139644
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:20:50.323924
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:21:37.781676
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:22:07.561762
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:22:39.505337
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:23:06.183108
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 498, in scrape_data
+    soup6 = html6.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:23:07.692496
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:24:09.259073
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:24:41.685275
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:25:50.582072
+HTTPSConnectionPool(host='www.buyucoin.com', port=443): Max retries exceeded with url: /api/v1/btc (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x05F4FE70>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',))
+Traceback (most recent call last):
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x05F4FE70>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.buyucoin.com', port=443): Max retries exceeded with url: /api/v1/btc (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x05F4FE70>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ".\scraping.py", line 447, in scrape_data
+    html_buyucoin = bscraper.get("https://www.buyucoin.com/api/v1/btc")
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 521, in get
+    return self.request('GET', url, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\cfscrape\__init__.py", line 39, in request
+    resp = super(CloudflareScraper, self).request(method, url, *args, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.buyucoin.com', port=443): Max retries exceeded with url: /api/v1/btc (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x05F4FE70>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',))
+
+DateTime : 2018-02-17 10:25:59.342106
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:27:23.273751
+HTTPSConnectionPool(host='api.ethexindia.com', port=443): Max retries exceeded with url: /ticker (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0695D2D0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',))
+Traceback (most recent call last):
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x0695D2D0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.ethexindia.com', port=443): Max retries exceeded with url: /ticker (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0695D2D0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ".\scraping.py", line 497, in scrape_data
+    html6 = requests.get('https://api.ethexindia.com/ticker')
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.ethexindia.com', port=443): Max retries exceeded with url: /ticker (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0695D2D0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',))
+
+DateTime : 2018-02-17 10:27:23.617605
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:28:16.874568
+HTTPSConnectionPool(host='www.zebapi.com', port=443): Max retries exceeded with url: /api/v1/market/ticker-new/BTC/INR (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x066E1530>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',))
+Traceback (most recent call last):
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x066E1530>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zebapi.com', port=443): Max retries exceeded with url: /api/v1/market/ticker-new/BTC/INR (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x066E1530>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ".\scraping.py", line 363, in scrape_data
+    html22 = requests.get('https://www.zebapi.com/api/v1/market/ticker-new/BTC/INR')
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.zebapi.com', port=443): Max retries exceeded with url: /api/v1/market/ticker-new/BTC/INR (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x066E1530>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',))
+
+DateTime : 2018-02-17 10:28:33.464178
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:29:33.358822
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:30:34.281691
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:32:01.459327
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:32:49.151371
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:33:48.617460
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:34:35.235687
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:35:49.681592
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:36:28.664250
+HTTPSConnectionPool(host='www.zebapi.com', port=443): Max retries exceeded with url: /api/v1/market/ticker-new/BTC/INR (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0695DF90>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',))
+Traceback (most recent call last):
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x0695DF90>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zebapi.com', port=443): Max retries exceeded with url: /api/v1/market/ticker-new/BTC/INR (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0695DF90>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ".\scraping.py", line 363, in scrape_data
+    html22 = requests.get('https://www.zebapi.com/api/v1/market/ticker-new/BTC/INR')
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.zebapi.com', port=443): Max retries exceeded with url: /api/v1/market/ticker-new/BTC/INR (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0695DF90>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',))
+
+DateTime : 2018-02-17 10:36:39.253683
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:37:26.256418
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:38:15.911757
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:39:15.235399
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 498, in scrape_data
+    soup6 = html6.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:39:20.207189
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:40:38.449451
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+DateTime : 2018-02-17 10:41:21.483572
+Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ".\scraping.py", line 520, in scrape_data
+    soup_btcx = html_btcx.json()
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 892, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
