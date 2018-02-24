@@ -3,6 +3,7 @@ from . import views
 
 urlpatterns =[
 	path('',views.index, name='index'),
+	path('api',views.api, name='api'),
 	path('uc_btc_by/', views.uc_btc_by, name='uc_btc_by'),
 	path('uc_btc_sl/', views.uc_btc_sl, name='uc_btc_sl'),
 	path('zp_btc_by/', views.zp_btc_by, name='zp_btc_by'),

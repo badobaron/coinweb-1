@@ -3,10 +3,17 @@ from coinweb.settings import PROJECT_ROOT
 import json
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.http import JsonResponse
 
 # Create your views here.
 def index(request):
 	return render(request, 'coinapp/index2.html', {})
+
+def api(request):
+    with open(os.path.join(PROJECT_ROOT, 'coinprice.json'), 'r') as json_file:
+        data=json_file.read()
+        result=data
+    return HttpResponse(result, content_type='application/json',status=200 )
 
 
 def uc_btc_by(request):
