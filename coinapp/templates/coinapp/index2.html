@@ -16,15 +16,20 @@
 			<header class="mdl-layout__header">
 				<div class="mdl-layout__header-row">
 					<!-- Title -->
-					<div class="mdl-layout-title">Coin Exchange Rates</div>
+					<div class="mdl-layout-title">Crypto Ticker</div>
 				</div>
 				<!-- Tabs -->
 				<div class="mdl-layout__tab-bar">
-					<a href="#fixed-tab-1" class="mdl-layout__tab "><img src="{% static "coinapp/btc.png" %}" width="20px" height="20px">BTC</a>
-					<a href="#fixed-tab-2" class="mdl-layout__tab "><img src="{% static "coinapp/eth.png" %}" width="20px" height="20px">ETH</a>
-					<a href="#fixed-tab-3" class="mdl-layout__tab "><img src="{% static "coinapp/bch.png" %}" width="20px" height="20px">BCH</a>
-					<a href="#fixed-tab-4" class="mdl-layout__tab "><img src="{% static "coinapp/ltc.png" %}" width="20px" height="20px">LTC</a>
-					<a href="#fixed-tab-5" class="mdl-layout__tab "><img src="{% static "coinapp/xrp.png" %}" width="20px" height="20px">XRP</a>
+					<a href="#fixed-tab-1" class="mdl-layout__tab "><img src="{% static "coinapp/btc.png" %}" width="22px" height="22px">BTC</a>
+					<a href="#fixed-tab-2" class="mdl-layout__tab "><img src="{% static "coinapp/eth.png" %}" width="22px" height="22px">ETH</a>
+					<a href="#fixed-tab-3" class="mdl-layout__tab "><img src="{% static "coinapp/bch.png" %}" width="22px" height="22px">BCH</a>
+					<a href="#fixed-tab-4" class="mdl-layout__tab "><img src="{% static "coinapp/ltc.png" %}" width="22px" height="22px">LTC</a>
+					<a href="#fixed-tab-5" class="mdl-layout__tab "><img src="{% static "coinapp/xrp.png" %}" width="22px" height="22px">XRP</a>
+					<a href="#fixed-tab-6" class="mdl-layout__tab "><img src="{% static "coinapp/dash.png" %}" width="22px" height="22px">DASH</a>
+					<a href="#fixed-tab-7" class="mdl-layout__tab "><img src="{% static "coinapp/neo.jpeg" %}" width="22px" height="22px">NEO</a>
+					<a href="#fixed-tab-8" class="mdl-layout__tab "><img src="{% static "coinapp/xlm.png" %}" width="22px" height="22px">XLM</a>
+					<a href="#fixed-tab-9" class="mdl-layout__tab "><img src="{% static "coinapp/xrp.png" %}" width="22px" height="22px">OMG</a>
+					<a href="#fixed-tab-10" class="mdl-layout__tab "><img src="{% static "coinapp/xrp.png" %}" width="22px" height="22px">REQ</a>
 				</div>
 			</header>
 			<div class="mdl-layout__drawer">
@@ -53,7 +58,7 @@
 								BEST PRICES <span class="inr">(INR)
 								</span>
 							</div>
-							<br> <br>
+							
 							<div class="buy">
 								<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="bt_btc_by"></span></span>
 							</div>
@@ -74,7 +79,7 @@
 								BUYUCOIN <span class="inr">(INR)
 								</span>
 							</div>
-							<br> <br>
+							<br> 
 							<div class="buy">
 								<span class="buy-text">Buy :</span><span class="bsdata bdata"><span id="bu_btc_by"></span></span>
 							</div>
@@ -88,7 +93,7 @@
 								COINDELTA <span class="inr">(INR)
 								</span>
 							</div>
-							<br> <br>
+							<br> 
 							<div class="buy">
 								<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="cd_btc_by"></span></span>
 							</div>
@@ -103,7 +108,7 @@
 								COINOME <span class="inr">(INR)
 								</span>
 							</div>
-							<br> <br>
+							<br> 
 							<div class="buy">
 								<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="cn_btc_by"></span></span>
 							</div>
@@ -117,7 +122,7 @@
 								COINSECURE <span class="inr">(INR)
 								</span>
 							</div>
-							<br> <br>
+							<br> 
 							<div class="buy">
 								<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="cs_btc_by"></span></span>
 							</div>
@@ -131,7 +136,7 @@
 								KOINEX <span class="inr">(INR)
 								</span>
 							</div>
-							<br> <br>
+							<br> 
 							<div class="buy">
 								<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="kx_btc_by"></span></span>
 							</div>
@@ -145,7 +150,7 @@
 								POCKETBITS <span class="inr">(INR)
 								</span>
 							</div>
-							<br> <br>
+							<br> 
 							<div class="buy">
 								<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="pb_btc_by"></span></span>
 							</div>
@@ -159,7 +164,7 @@
 								UNOCOIN <span class="inr">(INR)
 								</span>
 							</div>
-							<br> <br>
+							<br> 
 							<div class="buy">
 								<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="uc_btc_by"></span></span>
 							</div>
@@ -173,7 +178,7 @@
 								ZEBPAY <span class="inr">(INR)
 								</span>
 							</div>
-							<br> <br>
+							<br>
 							<div class="buy">
 								<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="zp_btc_by"></span></span>
 							</div>
@@ -191,7 +196,7 @@
 							BEST PRICES <span class="inr">(INR)
 							</span>
 						</div>
-						<br> <br>
+						
 						<div class="buy">
 							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="bt_eth_by"></span></span>
 						</div>
@@ -212,7 +217,7 @@
 							COINDELTA <span class="inr">(INR)
 							</span>
 						</div>
-						<br> <br>
+						<br> 
 						<div class="buy">
 							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="cd_eth_by"></span></span>
 						</div>
@@ -226,7 +231,7 @@
 							ETHEXINDIA <span class="inr">(INR)
 							</span>
 						</div>
-						<br> <br>
+						<br> 
 						<div class="buy">
 							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="ex_eth_by"></span></span>
 						</div>
@@ -240,14 +245,16 @@
 							KOINEX <span class="inr">(INR)
 							</span>
 						</div>
-						<br> <br>
+						<br> 
 						<div class="buy">
 							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="kx_eth_by"></span></span>
 						</div>
 						<div class="sell">
 							<span class="sell-text">Sell :</span><span class="bsdata sdata"> <span id="kx_eth_sl"></span></span>
 						</div>
+						<br> <br>
 					</div>
+					
 				</div>
 				</section>
 				<section class="mdl-layout__tab-panel" id="fixed-tab-3">
@@ -256,7 +263,7 @@
 							BEST PRICES <span class="inr">(INR)
 							</span>
 						</div>
-						<br> <br>
+						
 						<div class="buy">
 							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="bt_bch_by"></span></span>
 						</div>
@@ -277,7 +284,7 @@
 							COINDELTA <span class="inr">(INR)
 							</span>
 						</div>
-						<br> <br>
+						<br> 
 						<div class="buy">
 							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="cd_bch_by"></span></span>
 						</div>
@@ -291,7 +298,7 @@
 							COINOME <span class="inr">(INR)
 							</span>
 						</div>
-						<br> <br>
+						<br> 
 						<div class="buy">
 							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="cn_bch_by"></span></span>
 						</div>
@@ -305,13 +312,14 @@
 							KOINEX <span class="inr">(INR)
 							</span>
 						</div>
-						<br> <br>
+						<br> 
 						<div class="buy">
 							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="kx_bch_by"></span></span>
 						</div>
 						<div class="sell">
 							<span class="sell-text">Sell :</span><span class="bsdata sdata"> <span id="kx_bch_sl"></span></span>
 						</div>
+						<br><br>
 					</div>
 				</div>
 				</section>
@@ -321,7 +329,7 @@
 							BEST PRICES <span class="inr">(INR)
 							</span>
 						</div>
-						<br> <br>
+						
 						<div class="buy">
 							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="bt_ltc_by"></span></span>
 						</div>
@@ -342,7 +350,7 @@
 							COINDELTA <span class="inr">(INR)
 							</span>
 						</div>
-						<br> <br>
+						 <br>
 						<div class="buy">
 							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="cd_ltc_by"></span></span>
 						</div>
@@ -356,7 +364,7 @@
 							COINOME <span class="inr">(INR)
 							</span>
 						</div>
-						<br> <br>
+						<br>
 						<div class="buy">
 							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="cn_ltc_by"></span></span>
 						</div>
@@ -370,13 +378,14 @@
 							KOINEX <span class="inr">(INR)
 							</span>
 						</div>
-						<br> <br>
+						<br> 
 						<div class="buy">
 							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="kx_ltc_by"></span></span>
 						</div>
 						<div class="sell">
 							<span class="sell-text">Sell :</span><span class="bsdata sdata"> <span id="kx_ltc_sl"></span></span>
 						</div>
+						<br><br>
 					</div>
 				</div>
 				</section>
@@ -386,12 +395,12 @@
 							BEST PRICES <span class="inr">(INR)
 							</span>
 						</div>
-						<br> <br>
+						
 						<div class="buy">
 							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="bt_xrp_by"></span></span>
 						</div>
 						<div class="sell">
-							<span class="sell-text">Sell :</span><span class="bsdata sdata"> <span id="bt_xrp_sl"></span>0</span>
+							<span class="sell-text">Sell :</span><span class="bsdata sdata"> <span id="bt_xrp_sl"></span></span>
 						</div>
 						<br> <br>
 						<div class="from">
@@ -407,7 +416,7 @@
 							BTCXINDIA <span class="inr">(INR)
 							</span>
 						</div>
-						<br> <br>
+						<br> 
 						<div class="buy">
 							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="bx_xrp_by"></span></span>
 						</div>
@@ -421,7 +430,7 @@
 							COINDELTA <span class="inr">(INR)
 							</span>
 						</div>
-						<br> <br>
+						<br>
 						<div class="buy">
 							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="cd_xrp_by"></span></span>
 						</div>
@@ -435,14 +444,215 @@
 							KOINEX <span class="inr">(INR)
 							</span>
 						</div>
-						<br> <br>
+						<br> 
 						<div class="buy">
 							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id="kx_xrp_by"></span></span>
 						</div>
 						<div class="sell">
 							<span class="sell-text">Sell :</span><span class="bsdata sdata"> <span id="kx_xrp_sl"></span></span>
 						</div>
+						<br><br>
 					</div>
+				</div>
+				</section>
+				<section class="mdl-layout__tab-panel" id="fixed-tab-6">
+					<div class="page-content"><div class="best_card">
+						<div class="card-title">
+							BEST PRICES <span class="inr">(INR)
+							</span>
+						</div>
+						
+						<div class="buy">
+							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id=""></span></span>
+						</div>
+						<div class="sell">
+							<span class="sell-text">Sell :</span><span class="bsdata sdata"> <span id=""></span></span>
+						</div>
+						<br> <br>
+						<div class="from">
+							<span class="ex-text">From :</span><span class="bsdata"> <span id=""></span></span>
+						</div>
+						<div class="to">
+							<span class="ex-text">To :</span><span class="bsdata"> <span id=""></span></span>
+						</div>
+						<br> <br>
+					</div>
+					
+					<div class="normal_card">
+						<div class="card-title">
+							COINOME <span class="inr">(INR)
+							</span>
+						</div>
+						<br>
+						<div class="buy">
+							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id=""></span></span>
+						</div>
+						<div class="sell">
+							<span class="sell-text">Sell :</span><span class="bsdata sdata"> <span id=""></span></span>
+						</div>
+						<br> <br>
+					</div>
+					
+				</div>
+				</section>
+				<section class="mdl-layout__tab-panel" id="fixed-tab-7">
+					<div class="page-content"><div class="best_card">
+						<div class="card-title">
+							BEST PRICES <span class="inr">(INR)
+							</span>
+						</div>
+						
+						<div class="buy">
+							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id=""></span></span>
+						</div>
+						<div class="sell">
+							<span class="sell-text">Sell :</span><span class="bsdata sdata"> <span id=""></span></span>
+						</div>
+						<br> <br>
+						<div class="from">
+							<span class="ex-text">From :</span><span class="bsdata"> <span id=""></span></span>
+						</div>
+						<div class="to">
+							<span class="ex-text">To :</span><span class="bsdata"> <span id=""></span></span>
+						</div>
+						<br> <br>
+					</div>
+					
+					<div class="normal_card">
+						<div class="card-title">
+							BITBNS <span class="inr">(INR)
+							</span>
+						</div>
+						<br>
+						<div class="buy">
+							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id=""></span></span>
+						</div>
+						<div class="sell">
+							<span class="sell-text">Sell :</span><span class="bsdata sdata"> <span id=""></span></span>
+						</div>
+						<br> <br>
+					</div>
+					
+				</div>
+				</section>
+				<section class="mdl-layout__tab-panel" id="fixed-tab-8">
+					<div class="page-content"><div class="best_card">
+						<div class="card-title">
+							BEST PRICES <span class="inr">(INR)
+							</span>
+						</div>
+						
+						<div class="buy">
+							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id=""></span></span>
+						</div>
+						<div class="sell">
+							<span class="sell-text">Sell :</span><span class="bsdata sdata"> <span id=""></span></span>
+						</div>
+						<br> <br>
+						<div class="from">
+							<span class="ex-text">From :</span><span class="bsdata"> <span id=""></span></span>
+						</div>
+						<div class="to">
+							<span class="ex-text">To :</span><span class="bsdata"> <span id=""></span></span>
+						</div>
+						<br> <br>
+					</div>
+					
+					<div class="normal_card">
+						<div class="card-title">
+							BITBNS <span class="inr">(INR)
+							</span>
+						</div>
+						<br>
+						<div class="buy">
+							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id=""></span></span>
+						</div>
+						<div class="sell">
+							<span class="sell-text">Sell :</span><span class="bsdata sdata"> <span id=""></span></span>
+						</div>
+						<br> <br>
+					</div>
+					
+				</div>
+				</section>
+				<section class="mdl-layout__tab-panel" id="fixed-tab-9">
+					<div class="page-content"><div class="best_card">
+						<div class="card-title">
+							BEST PRICES <span class="inr">(INR)
+							</span>
+						</div>
+						
+						<div class="buy">
+							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id=""></span></span>
+						</div>
+						<div class="sell">
+							<span class="sell-text">Sell :</span><span class="bsdata sdata"> <span id=""></span></span>
+						</div>
+						<br> <br>
+						<div class="from">
+							<span class="ex-text">From :</span><span class="bsdata"> <span id=""></span></span>
+						</div>
+						<div class="to">
+							<span class="ex-text">To :</span><span class="bsdata"> <span id=""></span></span>
+						</div>
+						<br> <br>
+					</div>
+					
+					<div class="normal_card">
+						<div class="card-title">
+							KOINEX <span class="inr">(INR)
+							</span>
+						</div>
+						<br>
+						<div class="buy">
+							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id=""></span></span>
+						</div>
+						<div class="sell">
+							<span class="sell-text">Sell :</span><span class="bsdata sdata"> <span id=""></span></span>
+						</div>
+						<br> <br>
+					</div>
+					
+				</div>
+				</section>
+				<section class="mdl-layout__tab-panel" id="fixed-tab-10">
+					<div class="page-content"><div class="best_card">
+						<div class="card-title">
+							BEST PRICES <span class="inr">(INR)
+							</span>
+						</div>
+						
+						<div class="buy">
+							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id=""></span></span>
+						</div>
+						<div class="sell">
+							<span class="sell-text">Sell :</span><span class="bsdata sdata"> <span id=""></span></span>
+						</div>
+						<br> <br>
+						<div class="from">
+							<span class="ex-text">From :</span><span class="bsdata"> <span id=""></span></span>
+						</div>
+						<div class="to">
+							<span class="ex-text">To :</span><span class="bsdata"> <span id=""></span></span>
+						</div>
+						<br> <br>
+					</div>
+					
+					<div class="normal_card">
+						<div class="card-title">
+							KOINEX <span class="inr">(INR)
+							</span>
+						</div>
+						<br>
+						<div class="buy">
+							<span class="buy-text">Buy :</span><span class="bsdata bdata"> <span id=""></span></span>
+						</div>
+						<div class="sell">
+							<span class="sell-text">Sell :</span><span class="bsdata sdata"> <span id=""></span></span>
+						</div>
+						<br> <br>
+					</div>
+					
 				</div>
 				</section>
 			</main>

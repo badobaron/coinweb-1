@@ -6,17 +6,13 @@ import pytz
 import os
 import requests
 import cfscrape
-
 import datetime
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
-
 tz = pytz.timezone('Asia/Kolkata')
 datefmt = '%d-%m-%Y'
 timefmt = '%H:%M:%S'
-
-
 
 fulltime = datetime.datetime.now()
 
@@ -25,11 +21,9 @@ PHANTOMJS_PATH = 'phantomjs'
 
 
 coinsoup = {} 
-oldvalue= {}
+oldsoup= {}
 
 driver1 = webdriver.PhantomJS(PHANTOMJS_PATH)
-
-
 
 #driver2 = webdriver.PhantomJS(PHANTOMJS_PATH)
 
@@ -38,8 +32,7 @@ driver1 = webdriver.PhantomJS(PHANTOMJS_PATH)
 buyucoin_buy_fees = 0
 buyucoin_sell_fees = 0
 
-btcx_buy_fees = 1
-btcx_sell_fees = 1
+
 
 coindelta_buy_fees = 0.3
 coindelta_sell_fees = 0
@@ -68,7 +61,7 @@ zebpay_sell_fees = 0
 
 
 buyucoin_err = None
-btcx_err = None
+
 coindelta_err = None
 coinome_err =  None
 coinsecure_err = None
@@ -77,14 +70,11 @@ koinex_err = None
 pocketbits_err = None
 unocoin_err = None
 zebpay_err = None
+bitbns_err = None
 
 
-def scrape_api(api):
-	html = requests.get(api)
-	soup = html.json()
+
 	
-
-
 def error(e):
 	with open('./log.txt', 'a') as f:
 		fulltime = datetime.datetime.now()
@@ -99,171 +89,11 @@ def scrape_data():
 
 	with open('./coinprice.json','r+',encoding='utf-8') as file:
 		oldsoup = json.load(file)
-#------------------------------ASSIGNING OLD VALUES----------------------------#        
-
-		try:
-		#---------------ERROR VALUES--------------------------#
-			oldvalue['old_btcx_error'] = oldsoup['btcx_error']
-			oldvalue['old_buyucoin_error'] = oldsoup['buyucoin_error']
-			oldvalue['old_coindelta_error'] = oldsoup['coindelta_error']
-			oldvalue['old_coinome_error'] = oldsoup['coinome_error']
-			oldvalue['old_coinsecure_error'] = oldsoup['coinsecure_error']
-			oldvalue['old_ethex_error'] = oldsoup['ethex_error']
-			oldvalue['old_koinex_error'] = oldsoup['koinex_error']
-			oldvalue['old_pocketbits_error'] = oldsoup['pocketbits_error']
-			oldvalue['old_unocoin_error'] = oldsoup['unocoin_error']
-			oldvalue['old_zebpay_error'] = oldsoup['zebpay_error']
-
-		except Exception as e:
-			oldvalue['old_btcx_error'] = 'false'
-			oldvalue['old_buyucoin_error'] = 'false'
-			oldvalue['old_coindelta_error'] = 'false'
-			oldvalue['old_coinome_error'] = 'false'
-			oldvalue['old_coinsecure_error'] = 'false'
-			oldvalue['old_ethex_error'] = 'false'
-			oldvalue['old_koinex_error'] = 'false'
-			oldvalue['old_pocketbits_error'] = 'false'
-			oldvalue['old_unocoin_error'] = 'false'
-			oldvalue['old_zebpay_error'] = 'false'
-			error(e)
-
-		#------------------------BEST BUY FROM-------------------------#
-
-		try:
-			oldvalue['old_best_btc_buy_from'] = oldsoup['best_btc_buy_from']
-			oldvalue['old_best_eth_buy_from'] = oldsoup['best_eth_buy_from']
-			oldvalue['old_best_bch_buy_from'] = oldsoup['best_bch_buy_from']
-			oldvalue['old_best_ltc_buy_from'] = oldsoup['best_ltc_buy_from']
-			oldvalue['old_best_xrp_buy_from'] = oldsoup['best_xrp_buy_from']
-			oldvalue['old_best_dash_buy_from'] = oldsoup['best_dash_buy_from']
-
-			#------------------------BEST SELL TO-------------------------#
-			oldvalue['old_best_btc_sell_to'] = oldsoup['best_btc_sell_to']
-			oldvalue['old_best_eth_sell_to'] = oldsoup['best_eth_sell_to']
-			oldvalue['old_best_bch_sell_to'] = oldsoup['best_bch_sell_to']
-			oldvalue['old_best_ltc_sell_to'] = oldsoup['best_ltc_sell_to']
-			oldvalue['old_best_xrp_sell_to'] = oldsoup['best_xrp_sell_to']
-			oldvalue['old_best_dash_sell_to'] = oldsoup['best_dash_sell_to']
-		
-		except Exception as e:
-
-			oldvalue['old_best_btc_buy_from'] = '---'
-			oldvalue['old_best_eth_buy_from'] = '---'
-			oldvalue['old_best_bch_buy_from'] = '---'
-			oldvalue['old_best_ltc_buy_from'] = '---'
-			oldvalue['old_best_xrp_buy_from'] = '---'
-			oldvalue['old_best_btc_sell_to'] = '---'
-			oldvalue['old_best_eth_sell_to'] = '---'
-			oldvalue['old_best_bch_sell_to'] = '---'
-			oldvalue['old_best_ltc_sell_to'] = '---'
-			oldvalue['old_best_xrp_sell_to'] = '---'
-			oldvalue['old_best_dash_sell_to'] = '---'
-			error(e)
-
-
-		#---------------------COINS BUY/SELL-------------------------#
-		
-		oldvalue['old_unocoin_btc_buy'] = oldsoup['unocoin_btc_buy']
-		oldvalue['old_unocoin_btc_sell'] = oldsoup['unocoin_btc_sell']
-		oldvalue['old_unocoin_timestamp'] = oldsoup['unocoin_timestamp']
-
-		oldvalue['old_zebpay_btc_buy'] = oldsoup['zebpay_btc_buy']
-		oldvalue['old_zebpay_btc_sell'] = oldsoup['zebpay_btc_sell']
-		oldvalue['old_zebpay_timestamp'] = oldsoup['zebpay_timestamp']
-
-		oldvalue['old_koinex_btc_buy'] = oldsoup['koinex_btc_buy']
-		oldvalue['old_koinex_btc_sell'] = oldsoup['koinex_btc_sell']
-		oldvalue['old_koinex_eth_buy'] = oldsoup['koinex_eth_buy']
-		oldvalue['old_koinex_eth_sell'] = oldsoup['koinex_eth_sell']
-		oldvalue['old_koinex_ltc_buy'] = oldsoup['koinex_ltc_buy']
-		oldvalue['old_koinex_ltc_sell'] = oldsoup['koinex_ltc_sell']
-		oldvalue['old_koinex_bch_buy'] = oldsoup['koinex_bch_buy']
-		oldvalue['old_koinex_bch_sell'] = oldsoup['koinex_bch_sell']
-		oldvalue['old_koinex_xrp_buy'] = oldsoup['koinex_xrp_buy']
-		oldvalue['old_koinex_xrp_sell'] = oldsoup['koinex_xrp_sell']
-		oldvalue['old_koinex_timestamp'] = oldsoup['koinex_timestamp']
-
-		oldvalue['old_buyucoin_btc_buy'] = oldsoup['buyucoin_btc_buy']
-		oldvalue['old_buyucoin_btc_sell'] = oldsoup['buyucoin_btc_sell']
-		oldvalue['old_buyucoin_timestamp'] = oldsoup['buyucoin_timestamp']
-
-		oldvalue['old_coinsecure_btc_buy'] = oldsoup['coinsecure_btc_buy']
-		oldvalue['old_coinsecure_btc_sell'] = oldsoup['coinsecure_btc_sell']
-		oldvalue['old_coinsecure_timestamp'] = oldsoup['coinsecure_timestamp']
-
-		oldvalue['old_coinome_btc_buy'] = oldsoup['coinome_btc_buy']
-		oldvalue['old_coinome_btc_sell'] = oldsoup['coinome_btc_sell']
-		oldvalue['old_coinome_bch_buy'] = oldsoup['coinome_bch_buy']
-		oldvalue['old_coinome_bch_sell'] = oldsoup['coinome_bch_sell']
-		oldvalue['old_coinome_ltc_buy'] = oldsoup['coinome_ltc_buy']
-		oldvalue['old_coinome_ltc_sell'] = oldsoup['coinome_ltc_sell']
-		oldvalue['old_coinome_dash_buy'] = oldsoup['coinome_dash_buy']
-		oldvalue['old_coinome_dash_sell'] = oldsoup['coinome_dash_sell']
-		oldvalue['old_coinome_timestamp'] = oldsoup['coinome_timestamp']
-
-		oldvalue['old_pocketbits_btc_buy'] = oldsoup['pocketbits_btc_buy']
-		oldvalue['old_pocketbits_btc_sell'] = oldsoup['pocketbits_btc_sell']
-		oldvalue['old_pocketbits_timestamp'] = oldsoup['pocketbits_timestamp']
-
-		oldvalue['old_ethex_eth_buy'] = oldsoup['ethex_eth_buy']
-		oldvalue['old_ethex_eth_sell'] = oldsoup['ethex_eth_sell']
-		oldvalue['old_ethex_timestamp'] = oldsoup['ethex_timestamp']
-
-		oldvalue['old_btcx_xrp_buy'] = oldsoup['btcx_xrp_buy']
-		oldvalue['old_btcx_xrp_sell'] = oldsoup['btcx_xrp_sell']
-		oldvalue['old_btcx_timestamp'] = oldsoup['btcx_timestamp']
-
-		oldvalue['old_coindelta_btc_buy'] = oldsoup['coindelta_btc_buy']
-		oldvalue['old_coindelta_btc_sell'] = oldsoup['coindelta_btc_sell']
-		oldvalue['old_coindelta_eth_buy'] = oldsoup['coindelta_eth_buy']
-		oldvalue['old_coindelta_eth_sell'] = oldsoup['coindelta_eth_sell']
-		oldvalue['old_coindelta_ltc_buy'] = oldsoup['coindelta_ltc_buy']
-		oldvalue['old_coindelta_ltc_sell'] = oldsoup['coindelta_ltc_sell']
-		oldvalue['old_coindelta_bch_buy'] = oldsoup['coindelta_bch_buy']
-		oldvalue['old_coindelta_bch_sell'] = oldsoup['coindelta_bch_sell']
-		oldvalue['old_coindelta_xrp_buy'] = oldsoup['coindelta_xrp_buy']
-		oldvalue['old_coindelta_xrp_sell'] = oldsoup['coindelta_xrp_sell']
-		oldvalue['old_coindelta_timestamp'] = oldsoup['coindelta_timestamp']
-
-
-		#-----------------BEST BUY SELL VALUE------------------#
-		try: 
-			oldvalue['old_best_btc_buy'] = oldsoup['best_btc_buy']
-			oldvalue['old_best_btc_sell'] = oldsoup['best_btc_sell']
-			oldvalue['old_best_eth_buy'] = oldsoup['best_eth_buy']
-			oldvalue['old_best_eth_sell'] = oldsoup['best_eth_sell']
-			oldvalue['old_best_bch_buy'] = oldsoup['best_bch_buy']
-			oldvalue['old_best_bch_sell'] = oldsoup['best_bch_sell']
-			oldvalue['old_best_ltc_buy'] = oldsoup['best_ltc_buy']
-			oldvalue['old_best_ltc_sell'] = oldsoup['best_ltc_sell']
-			oldvalue['old_best_xrp_buy'] = oldsoup['best_xrp_buy']
-			oldvalue['old_best_xrp_sell'] = oldsoup['best_xrp_sell']
-			oldvalue['old_best_dash_buy'] = oldsoup['best_dash_buy']
-			oldvalue['old_best_dash_sell'] = oldsoup['best_dash_sell']
-		
-		except exception as e:
-			oldvalue['old_best_btc_buy'] = 0
-			oldvalue['old_best_btc_sell'] = 0
-			oldvalue['old_best_eth_buy'] = 0
-			oldvalue['old_best_eth_sell'] = 0
-			oldvalue['old_best_bch_buy'] = 0
-			oldvalue['old_best_bch_sell'] = 0
-			oldvalue['old_best_ltc_buy'] = 0
-			oldvalue['old_best_ltc_sell'] = 0
-			oldvalue['old_best_xrp_buy'] = 0
-			oldvalue['old_best_xrp_sell'] = 0
-			oldvalue['old_best_dash_buy'] = 0
-			oldvalue['old_best_dash_sell'] = 0
-			error(e)
-
-	
+       
 #--------------------------FEES IN JSON---------------------------------------#
 		try:
 			coinsoup['buyucoin_buy_fees'] = buyucoin_buy_fees
 			coinsoup['buyucoin_sell_fees'] = buyucoin_sell_fees
-
-			coinsoup['btcx_buy_fees'] = btcx_buy_fees
-			coinsoup['btcx_sell_fees'] = btcx_sell_fees
 
 			coinsoup['coindelta_buy_fees'] = coindelta_buy_fees
 			coinsoup['coindelta_sell_fees'] = coindelta_sell_fees
@@ -292,8 +122,7 @@ def scrape_data():
 		except Exception as e:
 			coinsoup['buyucoin_buy_fees'] = 0
 			coinsoup['buyucoin_sell_fees'] = 0
-			coinsoup['btcx_buy_fees'] = 0
-			coinsoup['btcx_sell_fees'] = 0
+			
 			coinsoup['coindelta_buy_fees'] = 0 
 			coinsoup['coindelta_sell_fees'] = 0
 			coinsoup['coinome_buy_fees'] = 0
@@ -311,12 +140,7 @@ def scrape_data():
 			coinsoup['zebpay_buy_fees'] = 0
 			coinsoup['zebpay_sell_fees'] = 0
 
-
-
 #----------------------- BEST DICTS-----------------------------#
-
-		
-
 
 	btc_buy_dict = {}
 	eth_buy_dict = {}
@@ -324,6 +148,10 @@ def scrape_data():
 	ltc_buy_dict = {}
 	xrp_buy_dict = {}
 	dash_buy_dict = {}
+	neo_buy_dict = {}
+	xlm_buy_dict = {}
+	omg_buy_dict = {}
+	req_buy_dict = {}
 
 	btc_sell_dict = {}
 	eth_sell_dict = {}
@@ -331,7 +159,10 @@ def scrape_data():
 	ltc_sell_dict = {}
 	xrp_sell_dict = {}
 	dash_sell_dict = {}
-
+	neo_sell_dict = {}
+	xlm_sell_dict = {}
+	omg_sell_dict = {}
+	req_sell_dict = {}
 
 
 	#--------------------------FETCHING APIS-----------------------------#
@@ -350,37 +181,118 @@ def scrape_data():
 		print('unocoin working')
 	except Exception as e:
 		print('some exception occured in unocoin')
-		unocoin_btc_buy = float(oldvalue['old_unocoin_btc_buy'])
-		unocoin_btc_sell = float(oldvalue['old_unocoin_btc_sell'])
-		coinsoup['unocoin_btc_buy'] = float(oldvalue['old_unocoin_btc_buy'])
-		coinsoup['unocoin_btc_sell'] = float(oldvalue['old_unocoin_btc_sell'])
-		coinsoup['unocoin_timestamp'] = int(oldvalue['old_unocoin_timestamp'])
+		unocoin_btc_buy = float(oldsoup['unocoin_btc_buy'])
+		unocoin_btc_sell = float(oldsoup['unocoin_btc_sell'])
+		coinsoup['unocoin_btc_buy'] = float(oldsoup['unocoin_btc_buy'])
+		coinsoup['unocoin_btc_sell'] = float(oldsoup['unocoin_btc_sell'])
+		coinsoup['unocoin_timestamp'] = int(oldsoup['unocoin_timestamp'])
 		error(e)
+
+	try:
+		bscraper = cfscrape.create_scraper()
+		html_bit = bscraper.get("https://bitbns.com/order/getTickerAll")
+		soup_bit = html_bit.json()
+		bitbns_btc_buy = float(soup_bit[0]['BTC']['buyPrice'])
+		bitbns_btc_sell = float(soup_bit[0]['BTC']['sellPrice'])
+		bitbns_xrp_buy = float(soup_bit[1]['XRP']['buyPrice'])
+		bitbns_xrp_sell = float(soup_bit[1]['XRP']['sellPrice'])
+		bitbns_neo_buy = float(soup_bit[2]['NEO']['buyPrice'])
+		bitbns_neo_sell = float(soup_bit[2]['NEO']['sellPrice'])
+		bitbns_eth_buy = float(soup_bit[4]['ETH']['buyPrice'])
+		bitbns_eth_sell = float(soup_bit[4]['ETH']['sellPrice'])
+		bitbns_xlm_buy = float(soup_bit[5]['XLM']['buyPrice'])
+		bitbns_xlm_sell = float(soup_bit[5]['XLM']['sellPrice'])
+		coinsoup['bitbns_btc_buy'] = float(bitbns_btc_buy)
+		coinsoup['bitbns_btc_sell'] = float(bitbns_btc_sell)
+		coinsoup['bitbns_xrp_buy'] = float(bitbns_xrp_buy)
+		coinsoup['bitbns_xrp_sell'] = float(bitbns_xrp_sell)
+		coinsoup['bitbns_neo_buy'] = float(bitbns_neo_buy)
+		coinsoup['bitbns_neo_sell'] = float(bitbns_neo_sell)
+		coinsoup['bitbns_eth_buy'] = float(bitbns_eth_buy)
+		coinsoup['bitbns_eth_sell'] = float(bitbns_eth_sell)
+		coinsoup['bitbns_xlm_buy'] = float(bitbns_xlm_buy)
+		coinsoup['bitbns_xlm_sell'] = float(bitbns_xlm_sell)
+		coinsoup['bitbns_timestamp'] = int((datetime.datetime.utcnow() - datetime.datetime(1970, 1, 1, 0, 0, 0, 0)).total_seconds())
+		print("bitbns working")
+	
+	except Exception as e:
+		print("some exception occured in bitbns")
+		bitbns_btc_buy = float(oldsoup['bitbns_btc_buy'])
+		bitbns_btc_sell = float(oldsoup['bitbns_btc_sell'])
+		bitbns_eth_buy = float(oldsoup['bitbns_eth_buy'])
+		bitbns_eth_sell = float(oldsoup['bitbns_eth_sell'])
+		bitbns_neo_buy = float(oldsoup['bitbns_neo_buy'])
+		bitbns_neo_sell = float(oldsoup['bitbns_neo_sell'])
+		bitbns_xrp_buy = float(oldsoup['bitbns_xrp_buy'])
+		bitbns_xrp_sell = float(oldsoup['bitbns_xrp_sell'])
+		bitbns_xlm_buy = float(oldsoup['bitbns_xlm_buy'])
+		bitbns_xlm_sell = float(oldsoup['bitbns_xlm_sell'])
+		coinsoup['bitbns_btc_buy'] = float(oldsoup['bitbns_btc_buy'])
+		coinsoup['bitbns_btc_sell'] = float(oldsoup['bitbns_btc_sell'])
+		coinsoup['bitbns_eth_buy'] = float(oldsoup['bitbns_eth_buy'])
+		coinsoup['bitbns_eth_sell'] = float(oldsoup['bitbns_eth_sell'])
+		coinsoup['bitbns_neo_buy'] = float(oldsoup['bitbns_neo_buy'])
+		coinsoup['bitbns_neo_sell'] = float(oldsoup['bitbns_neo_sell'])
+		coinsoup['bitbns_xrp_buy'] = float(oldsoup['bitbns_xrp_buy'])
+		coinsoup['bitbns_xrp_sell'] = float(oldsoup['bitbns_xrp_sell'])
+		coinsoup['bitbns_xlm_buy'] = float(oldsoup['bitbns_xlm_buy'])
+		coinsoup['bitbns_xlm_sell'] = float(oldsoup['bitbns_xlm_sell'])
+		coinsoup['bitbns_timestamp'] = int(oldsoup['bitbns_timestamp'])
+		error(e)
+
 
 
 
 	try:
 		html22 = requests.get('https://www.zebapi.com/api/v1/market/ticker-new/BTC/INR')
-		soup22 = html22.json()
+		zbpy_ltc = requests.get('https://www.zebapi.com/api/v1/market/ticker-new/LTC/INR')
+		zbpy_bch = requests.get('https://www.zebapi.com/api/v1/market/ticker-new/BCH/INR')
+		zbpy_xrp = requests.get('https://www.zebapi.com/api/v1/market/ticker-new/XRP/INR')
 		soup_zebpay = html22.json()
+		soup_zebpay_ltc = zbpy_ltc.json()
+		soup_zebpay_bch = zbpy_bch.json()
+		soup_zebpay_xrp = zbpy_xrp.json()
 		zebpay_btc_buy=float(soup_zebpay['buy'])
 		zebpay_btc_sell=float(soup_zebpay['sell'])
+		zebpay_ltc_buy=float(soup_zebpay_ltc['buy'])
+		zebpay_ltc_sell=float(soup_zebpay_ltc['sell'])
+		zebpay_bch_buy=float(soup_zebpay_bch['buy'])
+		zebpay_bch_sell=float(soup_zebpay_bch['sell'])
+		zebpay_xrp_buy=float(soup_zebpay_xrp['buy'])
+		zebpay_xrp_sell=float(soup_zebpay_xrp['sell'])
 		coinsoup['zebpay_btc_buy'] = float(zebpay_btc_buy)
 		coinsoup['zebpay_btc_sell'] = float(zebpay_btc_sell)
+		coinsoup['zebpay_ltc_buy'] = float(zebpay_ltc_buy)
+		coinsoup['zebpay_ltc_sell'] = float(zebpay_ltc_sell)
+		coinsoup['zebpay_bch_buy'] = float(zebpay_bch_buy)
+		coinsoup['zebpay_bch_sell'] = float(zebpay_bch_sell)
+		coinsoup['zebpay_xrp_buy'] = float(zebpay_xrp_buy)
+		coinsoup['zebpay_xrp_sell'] = float(zebpay_xrp_sell)
 		coinsoup['zebpay_timestamp'] = int((datetime.datetime.utcnow() - datetime.datetime(1970, 1, 1, 0, 0, 0, 0)).total_seconds())
 		print('zebpay working')
 	except Exception as e:
 		print('some exception occured in zebpay')
-		zebpay_btc_buy = float(oldvalue['old_zebpay_btc_buy'])
-		zebpay_btc_sell = float(oldvalue['old_zebpay_btc_sell'])
-		coinsoup['zebpay_btc_buy'] = float(oldvalue['old_zebpay_btc_buy'])
-		coinsoup['zebpay_btc_sell'] = float(oldvalue['old_zebpay_btc_sell'])
-		coinsoup['zebpay_timestamp'] = int(oldvalue['old_zebpay_timestamp'])
+		zebpay_btc_buy = float(oldsoup['zebpay_btc_buy'])
+		zebpay_btc_sell = float(oldsoup['zebpay_btc_sell'])
+		zebpay_ltc_buy = float(oldsoup['zebpay_ltc_buy'])
+		zebpay_ltc_sell = float(oldsoup['zebpay_ltc_sell'])
+		zebpay_bch_buy = float(oldsoup['zebpay_bch_buy'])
+		zebpay_bch_sell = float(oldsoup['zebpay_bch_sell'])
+		zebpay_xrp_buy = float(oldsoup['zebpay_xrp_buy'])
+		zebpay_xrp_sell = float(oldsoup['zebpay_xrp_sell'])
+		coinsoup['zebpay_btc_buy'] = float(oldsoup['zebpay_btc_buy'])
+		coinsoup['zebpay_btc_sell'] = float(oldsoup['zebpay_btc_sell'])
+		coinsoup['zebpay_ltc_buy'] = float(oldsoup['zebpay_ltc_buy'])
+		coinsoup['zebpay_ltc_sell'] = float(oldsoup['zebpay_ltc_sell'])
+		coinsoup['zebpay_bch_buy'] = float(oldsoup['zebpay_bch_buy'])
+		coinsoup['zebpay_bch_sell'] = float(oldsoup['zebpay_bch_sell'])
+		coinsoup['zebpay_xrp_buy'] = float(oldsoup['zebpay_xrp_buy'])
+		coinsoup['zebpay_xrp_sell'] = float(oldsoup['zebpay_xrp_sell'])
+		coinsoup['zebpay_timestamp'] = int(oldsoup['zebpay_timestamp'])
 		error(e)
 
 	try:
 		
-	   
 		kscraper = cfscrape.create_scraper()
 		html_koinex = kscraper.get("https://koinex.in/api/ticker")
 		soup_koinex = html_koinex.json()
@@ -390,6 +302,8 @@ def scrape_data():
 		koinex_ltc = (soup_koinex['stats']['LTC'])
 		koinex_bch = (soup_koinex['stats']['BCH'])
 		koinex_xrp = (soup_koinex['stats']['XRP'])
+		koinex_omg = (soup_koinex['stats']['OMG'])
+		koinex_req = (soup_koinex['stats']['REQ'])
 
 		koinex_eth_buy = float(koinex_eth['lowest_ask'])
 		koinex_eth_sell = float(koinex_eth['highest_bid'])
@@ -401,6 +315,10 @@ def scrape_data():
 		koinex_bch_sell = float(koinex_bch['highest_bid'])
 		koinex_xrp_buy = float(koinex_xrp['lowest_ask'])
 		koinex_xrp_sell = float(koinex_xrp['highest_bid'])
+		koinex_omg_buy = float(koinex_omg['lowest_ask'])
+		koinex_omg_sell = float(koinex_omg['highest_bid'])
+		koinex_req_buy = float(koinex_req['lowest_ask'])
+		koinex_req_sell = float(koinex_req['highest_bid'])
 
 		coinsoup['koinex_eth_buy'] = float(koinex_eth_buy)
 		coinsoup['koinex_eth_sell'] = float(koinex_eth_sell)
@@ -412,33 +330,45 @@ def scrape_data():
 		coinsoup['koinex_bch_sell'] = float(koinex_bch_sell) 
 		coinsoup['koinex_xrp_buy'] = float(koinex_xrp_buy)
 		coinsoup['koinex_xrp_sell'] = float(koinex_xrp_sell)  
+		coinsoup['koinex_omg_buy'] = float(koinex_omg_buy)
+		coinsoup['koinex_omg_sell'] = float(koinex_omg_sell) 
+		coinsoup['koinex_req_buy'] = float(koinex_req_buy)
+		coinsoup['koinex_req_sell'] = float(koinex_req_sell) 
 		print('koinex working')
 		coinsoup['koinex_timestamp'] = int((datetime.datetime.utcnow() - datetime.datetime(1970, 1, 1, 0, 0, 0, 0)).total_seconds())
 
 	except Exception as e:
 		print('some exception occured in koinex')
-		koinex_btc_buy = float(oldvalue['old_koinex_btc_buy'])
-		koinex_btc_sell = float(oldvalue['old_koinex_btc_sell'])
-		koinex_eth_buy = float(oldvalue['old_koinex_eth_buy'])
-		koinex_eth_sell = float(oldvalue['old_koinex_eth_sell'])
-		koinex_bch_buy = float(oldvalue['old_koinex_bch_buy'])
-		koinex_bch_sell = float(oldvalue['old_koinex_bch_sell'])
-		koinex_ltc_buy = float(oldvalue['old_koinex_ltc_buy'])
-		koinex_ltc_sell = float(oldvalue['old_koinex_ltc_sell'])
-		koinex_xrp_buy = float(oldvalue['old_koinex_xrp_buy'])
-		koinex_xrp_sell = float(oldvalue['old_koinex_xrp_sell'])
+		koinex_btc_buy = float(oldsoup['koinex_btc_buy'])
+		koinex_btc_sell = float(oldsoup['koinex_btc_sell'])
+		koinex_eth_buy = float(oldsoup['koinex_eth_buy'])
+		koinex_eth_sell = float(oldsoup['koinex_eth_sell'])
+		koinex_bch_buy = float(oldsoup['koinex_bch_buy'])
+		koinex_bch_sell = float(oldsoup['koinex_bch_sell'])
+		koinex_ltc_buy = float(oldsoup['koinex_ltc_buy'])
+		koinex_ltc_sell = float(oldsoup['koinex_ltc_sell'])
+		koinex_xrp_buy = float(oldsoup['koinex_xrp_buy'])
+		koinex_xrp_sell = float(oldsoup['koinex_xrp_sell'])
+		koinex_omg_buy = float(oldsoup['koinex_omg_buy'])
+		koinex_omg_sell = float(oldsoup['koinex_omg_sell'])
+		koinex_req_buy = float(oldsoup['koinex_req_buy'])
+		koinex_req_sell = float(oldsoup['koinex_req_sell'])
 
-		coinsoup['koinex_btc_buy'] = float(oldvalue['old_koinex_btc_buy'])
-		coinsoup['koinex_btc_sell'] = float(oldvalue['old_koinex_btc_sell'])
-		coinsoup['koinex_eth_buy'] = float(oldvalue['old_koinex_eth_buy'])
-		coinsoup['koinex_eth_sell'] = float(oldvalue['old_koinex_eth_sell'])
-		coinsoup['koinex_bch_buy'] = float(oldvalue['old_koinex_bch_buy'])
-		coinsoup['koinex_bch_sell'] = float(oldvalue['old_koinex_bch_sell'])
-		coinsoup['koinex_ltc_buy'] = float(oldvalue['old_koinex_ltc_buy'])
-		coinsoup['koinex_ltc_sell'] = float(oldvalue['old_koinex_ltc_sell'])
-		coinsoup['koinex_xrp_buy'] = float(oldvalue['old_koinex_xrp_buy'])
-		coinsoup['koinex_xrp_sell'] = float(oldvalue['old_koinex_xrp_sell'])
-		coinsoup['koinex_timestamp'] = int(oldvalue['old_koinex_timestamp'])
+		coinsoup['koinex_btc_buy'] = float(oldsoup['koinex_btc_buy'])
+		coinsoup['koinex_btc_sell'] = float(oldsoup['koinex_btc_sell'])
+		coinsoup['koinex_eth_buy'] = float(oldsoup['koinex_eth_buy'])
+		coinsoup['koinex_eth_sell'] = float(oldsoup['koinex_eth_sell'])
+		coinsoup['koinex_bch_buy'] = float(oldsoup['koinex_bch_buy'])
+		coinsoup['koinex_bch_sell'] = float(oldsoup['koinex_bch_sell'])
+		coinsoup['koinex_ltc_buy'] = float(oldsoup['koinex_ltc_buy'])
+		coinsoup['koinex_ltc_sell'] = float(oldsoup['koinex_ltc_sell'])
+		coinsoup['koinex_xrp_buy'] = float(oldsoup['koinex_xrp_buy'])
+		coinsoup['koinex_xrp_sell'] = float(oldsoup['koinex_xrp_sell'])
+		coinsoup['koinex_omg_buy'] = float(oldsoup['koinex_omg_buy'])
+		coinsoup['koinex_omg_sell'] = float(oldsoup['koinex_omg_sell'])
+		coinsoup['koinex_req_buy'] = float(oldsoup['koinex_req_buy'])
+		coinsoup['koinex_req_sell'] = float(oldsoup['koinex_req_sell'])
+		coinsoup['koinex_timestamp'] = int(oldsoup['koinex_timestamp'])
 
 		error(e)    
 
@@ -459,11 +389,11 @@ def scrape_data():
 		print('buyucoin working')
 	except Exception as e:
 		print('some exception occured in buyucoin')
-		buyucoin_btc_buy = float(oldvalue['old_buyucoin_btc_buy'])
-		buyucoin_btc_sell = float(oldvalue['old_buyucoin_btc_sell'])
-		coinsoup['buyucoin_btc_buy'] = float(oldvalue['old_buyucoin_btc_buy'])
-		coinsoup['buyucoin_btc_sell'] = float(oldvalue['old_buyucoin_btc_sell'])
-		coinsoup['buyucoin_timestamp'] = int(oldvalue['old_buyucoin_timestamp'])
+		buyucoin_btc_buy = float(oldsoup['buyucoin_btc_buy'])
+		buyucoin_btc_sell = float(oldsoup['buyucoin_btc_sell'])
+		coinsoup['buyucoin_btc_buy'] = float(oldsoup['buyucoin_btc_buy'])
+		coinsoup['buyucoin_btc_sell'] = float(oldsoup['buyucoin_btc_sell'])
+		coinsoup['buyucoin_timestamp'] = int(oldsoup['buyucoin_timestamp'])
 
 		error(e)
 
@@ -483,11 +413,11 @@ def scrape_data():
 		print('coinsecure working')
 	except Exception as e:
 		print('some exception occured in coinsecure')
-		coinsecure_btc_buy = float(oldvalue['old_coinsecure_btc_buy'])
-		coinsecure_btc_sell = float(oldvalue['old_coinsecure_btc_sell'])
-		coinsoup['coinsecure_btc_buy'] = float(oldvalue['old_coinsecure_btc_buy'])
-		coinsoup['coinsecure_btc_sell'] = float(oldvalue['old_coinsecure_btc_sell'])
-		coinsoup['coinsecure_timestamp'] = int(oldvalue['old_coinsecure_timestamp'])
+		coinsecure_btc_buy = float(oldsoup['coinsecure_btc_buy'])
+		coinsecure_btc_sell = float(oldsoup['coinsecure_btc_sell'])
+		coinsoup['coinsecure_btc_buy'] = float(oldsoup['coinsecure_btc_buy'])
+		coinsoup['coinsecure_btc_sell'] = float(oldsoup['coinsecure_btc_sell'])
+		coinsoup['coinsecure_timestamp'] = int(oldsoup['coinsecure_timestamp'])
 		curtime= datetime.datetime.now(tz)
 		fulltime = datetime.datetime.now()
 
@@ -506,33 +436,15 @@ def scrape_data():
 		print('ethex working')
 	except Exception as e:
 		print('some exception occured in ethex')
-		ethex_eth_buy = float(oldvalue['old_ethex_eth_buy'])
-		ethex_eth_sell = float(oldvalue['old_ethex_eth_sell'])
-		coinsoup['ethex_eth_buy'] = float(oldvalue['old_ethex_eth_buy'])
-		coinsoup['ethex_eth_sell'] = float(oldvalue['old_ethex_eth_sell'])
-		coinsoup['ethex_timestamp'] = int(oldvalue['old_ethex_timestamp'])
+		ethex_eth_buy = float(oldsoup['ethex_eth_buy'])
+		ethex_eth_sell = float(oldsoup['ethex_eth_sell'])
+		coinsoup['ethex_eth_buy'] = float(oldsoup['ethex_eth_buy'])
+		coinsoup['ethex_eth_sell'] = float(oldsoup['ethex_eth_sell'])
+		coinsoup['ethex_timestamp'] = int(oldsoup['ethex_timestamp'])
 
 		error(e)
 
-	try:
-		bscraper = cfscrape.create_scraper()
-		html_btcx = bscraper.get("https://api.btcxindia.com/ticker/")
-		soup_btcx = html_btcx.json()
-		btcx_xrp_buy = float(soup_btcx['ask'])
-		btcx_xrp_sell = float(soup_btcx['bid'])
-		coinsoup['btcx_xrp_buy'] = float(btcx_xrp_buy)
-		coinsoup['btcx_xrp_sell'] = float(btcx_xrp_sell)        
-		print('Btcx Working')
-		coinsoup['btcx_timestamp'] = int((datetime.datetime.utcnow() - datetime.datetime(1970, 1, 1, 0, 0, 0, 0)).total_seconds())
-	except Exception as e:
-		print('some exception occured in  btcx')
-		btcx_xrp_buy = float(oldvalue['old_btcx_xrp_buy'])
-		btcx_xrp_sell = float(oldvalue['old_btcx_xrp_sell'])
-		coinsoup['btcx_xrp_buy'] = float(oldvalue['old_btcx_xrp_buy'])
-		coinsoup['btcx_xrp_sell'] = float(oldvalue['old_btcx_xrp_sell'])
-		coinsoup['btcx_timestamp'] = int(oldvalue['old_btcx_timestamp'])
-
-		error(e)
+	
 
 	try:    
 		html8 = requests.get('https://www.coinome.com/api/v1/ticker.json')
@@ -557,26 +469,25 @@ def scrape_data():
 		coinsoup['coinome_dash_sell']=float(coinome_dash_sell)
 		coinsoup['coinome_timestamp'] = int((datetime.datetime.utcnow() - datetime.datetime(1970, 1, 1, 0, 0, 0, 0)).total_seconds())
 		print('coinome working')
-		print(coinome_dash_buy)
-		print(coinome_dash_sell)
+		
 	except Exception as e:
 		print('some exception occured in coinome')
-		coinome_btc_buy = float(oldvalue['old_coinome_btc_buy'])
-		coinome_btc_sell = float(oldvalue['old_coinome_btc_sell'])
-		coinome_bch_buy = float(oldvalue['old_coinome_bch_buy'])
-		coinome_bch_sell = float(oldvalue['old_coinome_bch_sell'])
-		coinome_ltc_buy = float(oldvalue['old_coinome_ltc_buy'])
-		coinome_ltc_sell = float(oldvalue['old_coinome_ltc_sell'])
+		coinome_btc_buy = float(oldsoup['coinome_btc_buy'])
+		coinome_btc_sell = float(oldsoup['coinome_btc_sell'])
+		coinome_bch_buy = float(oldsoup['coinome_bch_buy'])
+		coinome_bch_sell = float(oldsoup['coinome_bch_sell'])
+		coinome_ltc_buy = float(oldsoup['coinome_ltc_buy'])
+		coinome_ltc_sell = float(oldsoup['coinome_ltc_sell'])
 
-		coinsoup['coinome_btc_buy'] = float(oldvalue['old_coinome_btc_buy'])
-		coinsoup['coinome_btc_sell'] = float(oldvalue['old_coinome_btc_sell'])
-		coinsoup['coinome_bch_buy'] = float(oldvalue['old_coinome_bch_buy'])
-		coinsoup['coinome_bch_sell'] = float(oldvalue['old_coinome_bch_sell'])
-		coinsoup['coinome_ltc_buy'] = float(oldvalue['old_coinome_ltc_buy'])
-		coinsoup['coinome_ltc_sell'] = float(oldvalue['old_coinome_ltc_sell'])
-		coinsoup['coinome_dash_buy'] = float(oldvalue['old_coinome_dash_buy'])
-		coinsoup['coinome_dash_sell'] = float(oldvalue['old_coinome_dash_sell'])
-		coinsoup['coinome_timestamp'] = int(oldvalue['old_coinome_timestamp'])
+		coinsoup['coinome_btc_buy'] = float(oldsoup['coinome_btc_buy'])
+		coinsoup['coinome_btc_sell'] = float(oldsoup['coinome_btc_sell'])
+		coinsoup['coinome_bch_buy'] = float(oldsoup['coinome_bch_buy'])
+		coinsoup['coinome_bch_sell'] = float(oldsoup['coinome_bch_sell'])
+		coinsoup['coinome_ltc_buy'] = float(oldsoup['coinome_ltc_buy'])
+		coinsoup['coinome_ltc_sell'] = float(oldsoup['coinome_ltc_sell'])
+		coinsoup['coinome_dash_buy'] = float(oldsoup['coinome_dash_buy'])
+		coinsoup['coinome_dash_sell'] = float(oldsoup['coinome_dash_sell'])
+		coinsoup['coinome_timestamp'] = int(oldsoup['coinome_timestamp'])
 
 		error(e)
 
@@ -592,11 +503,11 @@ def scrape_data():
 		print('pocketbits working')
 	except Exception as e:
 		print('some exception occured in pocketbits')
-		pocketbits_btc_buy = float(oldvalue['old_pocketbits_btc_buy'])
-		pocketbits_btc_sell = float(oldvalue['old_pocketbits_btc_sell'])
-		coinsoup['pocketbits_btc_buy'] = float(oldvalue['old_pocketbits_btc_buy'])
-		coinsoup['pocketbits_btc_sell'] = float(oldvalue['old_pocketbits_btc_sell'])
-		coinsoup['pocketbits_timestamp'] = int(oldvalue['old_pocketbits_timestamp'])
+		pocketbits_btc_buy = float(oldsoup['pocketbits_btc_buy'])
+		pocketbits_btc_sell = float(oldsoup['pocketbits_btc_sell'])
+		coinsoup['pocketbits_btc_buy'] = float(oldsoup['pocketbits_btc_buy'])
+		coinsoup['pocketbits_btc_sell'] = float(oldsoup['pocketbits_btc_sell'])
+		coinsoup['pocketbits_timestamp'] = int(oldsoup['pocketbits_timestamp'])
 
 		error(e)
 
@@ -643,28 +554,28 @@ def scrape_data():
 		print('coindelta working')
 	except Exception as e:
 		print('some exception occured in coindelta')
-		coindelta_buy_btc = float(oldvalue['old_coindelta_btc_buy'])
-		coindelta_sell_btc = float(oldvalue['old_coindelta_btc_sell'])
-		coindelta_buy_eth = float(oldvalue['old_coindelta_eth_buy'])
-		coindelta_sell_eth = float(oldvalue['old_coindelta_eth_sell'])
-		coindelta_buy_bch = float(oldvalue['old_coindelta_bch_buy'])
-		coindelta_sell_bch = float(oldvalue['old_coindelta_bch_sell'])
-		coindelta_buy_ltc = float(oldvalue['old_coindelta_ltc_buy'])
-		coindelta_sell_ltc = float(oldvalue['old_coindelta_ltc_sell'])
-		coindelta_buy_xrp = float(oldvalue['old_coindelta_xrp_buy'])
-		coindelta_sell_xrp = float(oldvalue['old_coindelta_xrp_sell'])
+		coindelta_buy_btc = float(oldsoup['coindelta_btc_buy'])
+		coindelta_sell_btc = float(oldsoup['coindelta_btc_sell'])
+		coindelta_buy_eth = float(oldsoup['coindelta_eth_buy'])
+		coindelta_sell_eth = float(oldsoup['coindelta_eth_sell'])
+		coindelta_buy_bch = float(oldsoup['coindelta_bch_buy'])
+		coindelta_sell_bch = float(oldsoup['coindelta_bch_sell'])
+		coindelta_buy_ltc = float(oldsoup['coindelta_ltc_buy'])
+		coindelta_sell_ltc = float(oldsoup['coindelta_ltc_sell'])
+		coindelta_buy_xrp = float(oldsoup['coindelta_xrp_buy'])
+		coindelta_sell_xrp = float(oldsoup['coindelta_xrp_sell'])
 
-		coinsoup['coindelta_btc_buy'] = float(oldvalue['old_coindelta_btc_buy'])
-		coinsoup['coindelta_btc_sell'] = float(oldvalue['old_coindelta_btc_sell'])
-		coinsoup['coindelta_eth_buy'] = float(oldvalue['old_coindelta_eth_buy'])
-		coinsoup['coindelta_eth_sell'] = float(oldvalue['old_coindelta_eth_sell'])
-		coinsoup['coindelta_bch_buy'] = float(oldvalue['old_coindelta_bch_buy'])
-		coinsoup['coindelta_bch_sell'] = float(oldvalue['old_coindelta_bch_sell'])
-		coinsoup['coindelta_ltc_buy'] = float(oldvalue['old_coindelta_ltc_buy'])
-		coinsoup['coindelta_ltc_sell'] = float(oldvalue['old_coindelta_ltc_sell'])
-		coinsoup['coindelta_xrp_buy'] = float(oldvalue['old_coindelta_xrp_buy'])
-		coinsoup['coindelta_xrp_sell'] = float(oldvalue['old_coindelta_xrp_sell'])
-		coinsoup['coindelta_timestamp'] = int(oldvalue['old_coindelta_timestamp'])
+		coinsoup['coindelta_btc_buy'] = float(oldsoup['coindelta_btc_buy'])
+		coinsoup['coindelta_btc_sell'] = float(oldsoup['coindelta_btc_sell'])
+		coinsoup['coindelta_eth_buy'] = float(oldsoup['coindelta_eth_buy'])
+		coinsoup['coindelta_eth_sell'] = float(oldsoup['coindelta_eth_sell'])
+		coinsoup['coindelta_bch_buy'] = float(oldsoup['coindelta_bch_buy'])
+		coinsoup['coindelta_bch_sell'] = float(oldsoup['coindelta_bch_sell'])
+		coinsoup['coindelta_ltc_buy'] = float(oldsoup['coindelta_ltc_buy'])
+		coinsoup['coindelta_ltc_sell'] = float(oldsoup['coindelta_ltc_sell'])
+		coinsoup['coindelta_xrp_buy'] = float(oldsoup['coindelta_xrp_buy'])
+		coinsoup['coindelta_xrp_sell'] = float(oldsoup['coindelta_xrp_sell'])
+		coinsoup['coindelta_timestamp'] = int(oldsoup['coindelta_timestamp'])
 
 		error(e)
 
@@ -679,13 +590,24 @@ def scrape_data():
 	
 	
 	try:
-		if(int(current_time - json_content['btcx_timestamp']<=120)):
-			btcx_err = False
+
+		if(int(current_time - json_content['bitbns_timestamp']<=120)):
+			bitbns_err = False
 			
-			xrp_buy_dict['btcxindia'] = btcx_xrp_buy
-			xrp_sell_dict['btcxindia'] = btcx_xrp_sell
+			btc_buy_dict['bitbns'] = bitbns_btc_buy
+			btc_sell_dict['bitbns'] = bitbns_btc_sell
+			xrp_buy_dict['bitbns'] = bitbns_xrp_buy
+			xrp_sell_dict['bitbns'] = bitbns_xrp_sell
+			eth_buy_dict['bitbns'] = bitbns_eth_buy
+			eth_sell_dict['bitbns'] = bitbns_eth_sell
+			xlm_buy_dict['bitbns'] = bitbns_xlm_buy
+			xlm_sell_dict['bitbns'] = bitbns_xlm_sell
+			neo_buy_dict['bitbns'] = bitbns_neo_buy
+			neo_sell_dict['bitbns'] = bitbns_neo_sell
 		else:
-			btcx_err = True	
+			bitbns_err = True	
+
+
 		
 		if(int(current_time - json_content['coindelta_timestamp']<=120)):
 			
@@ -704,8 +626,6 @@ def scrape_data():
 			ltc_sell_dict['coindelta'] = coindelta_sell_ltc
 			xrp_sell_dict['coindelta'] = coindelta_sell_xrp
 			
-
-
 
 		else:
 			coindelta_err = True
@@ -756,12 +676,16 @@ def scrape_data():
 			ltc_buy_dict['koinex'] = koinex_ltc_buy
 			eth_buy_dict['koinex'] = koinex_eth_buy
 			xrp_buy_dict['koinex'] = koinex_xrp_buy
+			omg_buy_dict['koinex'] = koinex_omg_buy
+			req_buy_dict['koinex'] = koinex_req_buy
 
 			btc_buy_dict['koinex'] = koinex_btc_sell
 			bch_sell_dict['koinex'] = koinex_bch_sell
 			ltc_sell_dict['koinex'] = koinex_ltc_sell
 			eth_sell_dict['koinex'] = koinex_eth_sell
 			xrp_sell_dict['koinex'] = koinex_xrp_sell
+			omg_sell_dict['koinex'] = koinex_omg_sell
+			req_sell_dict['koinex'] = koinex_req_sell
 
 		else:
 			koinex_err = True
@@ -796,20 +720,27 @@ def scrape_data():
 			
 			btc_buy_dict['zebpay'] = zebpay_btc_buy
 			btc_sell_dict['zebpay'] = zebpay_btc_sell
+			ltc_buy_dict['zebpay'] = zebpay_ltc_buy
+			ltc_sell_dict['zebpay'] = zebpay_ltc_sell
+			bch_buy_dict['zebpay'] = zebpay_bch_buy
+			bch_sell_dict['zebpay'] = zebpay_bch_sell
+			xrp_buy_dict['zebpay'] = zebpay_xrp_buy
+			xrp_sell_dict['zebpay'] = zebpay_xrp_sell
 		else:
 			zebpay_err = True
 	except Exception as e :
 
-		buyucoin_err = oldvalue['old_buyucoin_error']
-		btcx_err = oldvalue['old_btcx_error']
-		coindelta_err = oldvalue['old_coindelta_error']
-		coinome_err = oldvalue['old_coinome_error']
-		coinsecure_err = oldvalue['old_coinsecure_error']
-		ethex_err = oldvalue['old_ethex_error']
-		koinex_err = oldvalue['old_koinex_error']
-		pocketbits_err = oldvalue['old_pocketbits_error']
-		unocoin_err = oldvalue['old_unocoin_error']
-		zebpay_err = oldvalue['old_zebpay_error']
+		buyucoin_err = oldsoup['buyucoin_error']
+		
+		coindelta_err = oldsoup['coindelta_error']
+		coinome_err = oldsoup['coinome_error']
+		coinsecure_err = oldsoup['coinsecure_error']
+		ethex_err = oldsoup['ethex_error']
+		koinex_err = oldsoup['koinex_error']
+		pocketbits_err = oldsoup['pocketbits_error']
+		unocoin_err = oldsoup['unocoin_error']
+		zebpay_err = oldsoup['zebpay_error']
+		bitbns_err = oldsoup['bitbns_error']
 
 		error(e)
 
@@ -832,33 +763,45 @@ def scrape_data():
 
 		best_dash_buy = min(dash_buy_dict.values())
 		best_dash_sell = max(dash_sell_dict.values())
+
+		best_neo_buy = min(neo_buy_dict.values())
+		best_neo_sell = max(neo_sell_dict.values())
+
+		best_xlm_buy = min(xlm_buy_dict.values())
+		best_xlm_sell = max(xlm_sell_dict.values())
+
+		best_omg_buy = min(omg_buy_dict.values())
+		best_omg_sell = max(omg_sell_dict.values())
+
+		best_req_buy = min(req_buy_dict.values())
+		best_req_sell = max(req_sell_dict.values())
 		 
-		print(best_dash_buy)
-		print(best_dash_sell)
+		
 	except Exception as e:
 		print("some exception occ in best values")
 
-		best_btc_buy = oldvalue['old_best_btc_buy']
-		best_eth_buy = oldvalue['old_best_eth_buy']
-		best_bch_buy = oldvalue['old_best_bch_buy']
-		best_ltc_buy = oldvalue['old_best_ltc_buy']
-		best_xrp_buy = oldvalue['old_best_xrp_buy']
-		best_dash_buy = oldvalue['old_best_dash_buy']
-		best_btc_sell = oldvalue['old_best_btc_sell']
-		best_eth_sell = oldvalue['old_best_eth_sell']
-		best_bch_sell = oldvalue['old_best_bch_sell']
-		best_ltc_sell = oldvalue['old_best_ltc_sell']
-		best_xrp_sell = oldvalue['old_best_xrp_sell']
-		best_dash_sell = oldvalue['old_best_dash_sell']
+		best_btc_buy = oldsoup['best_btc_buy']
+		best_eth_buy = oldsoup['best_eth_buy']
+		best_bch_buy = oldsoup['best_bch_buy']
+		best_ltc_buy = oldsoup['best_ltc_buy']
+		best_xrp_buy = oldsoup['best_xrp_buy']
+		best_dash_buy = oldsoup['best_dash_buy']
+		best_neo_buy = oldsoup['best_neo_buy']
+		best_xlm_buy = oldsoup['best_xlm_buy']
+		best_omg_buy = oldsoup['best_omg_buy']
+		best_req_buy = oldsoup['best_req_buy']
+		best_btc_sell = oldsoup['best_btc_sell']
+		best_eth_sell = oldsoup['best_eth_sell']
+		best_bch_sell = oldsoup['best_bch_sell']
+		best_ltc_sell = oldsoup['best_ltc_sell']
+		best_xrp_sell = oldsoup['best_xrp_sell']
+		best_dash_sell = oldsoup['best_dash_sell']
+		best_neo_sell = oldsoup['best_neo_sell']
+		best_xlm_sell = oldsoup['best_xlm_sell']
+		best_omg_sell = oldsoup['best_omg_sell']
+		best_req_sell = oldsoup['best_req_sell']
 
 		error(e)
-
-
-
-	
-	
-
-
 
 	try:
 		best_btc_buy_from = (min(btc_buy_dict, key=btc_buy_dict.get))
@@ -878,26 +821,45 @@ def scrape_data():
 
 		best_dash_buy_from = (min(dash_buy_dict, key = dash_buy_dict.get))
 		best_dash_sell_to = max(dash_sell_dict, key=dash_sell_dict.get)
+
+		best_neo_buy_from = (min(neo_buy_dict, key=neo_buy_dict.get))
+		best_neo_sell_to = (max(neo_sell_dict, key=neo_sell_dict.get))
+
+		best_xlm_buy_from = (min(xlm_buy_dict, key=xlm_buy_dict.get))
+		best_xlm_sell_to = (max(xlm_sell_dict, key=xlm_sell_dict.get))
+
+		best_omg_buy_from = (min(omg_buy_dict, key=xlm_buy_dict.get))
+		best_omg_sell_to = (max(omg_sell_dict, key=xlm_sell_dict.get))
+
+		best_req_buy_from = (min(req_buy_dict, key=xlm_buy_dict.get))
+		best_req_sell_to = (max(req_sell_dict, key=xlm_sell_dict.get))
 	except Exception as e:
 
-
-		best_btc_buy_from = oldvalue['old_best_btc_buy_from']
-		best_eth_buy_from = oldvalue['old_best_eth_buy_from']
-		best_bch_buy_from = oldvalue['old_best_bch_buy_from']
-		best_ltc_buy_from = oldvalue['old_best_ltc_buy_from']
-		best_xrp_buy_from = oldvalue['old_best_xrp_buy_from']
-		best_dash_buy_from = oldvalue['old_best_dash_buy_from']
-		best_btc_sell_to = oldvalue['old_best_btc_sell_to']
-		best_eth_sell_to = oldvalue['old_best_eth_sell_to']
-		best_bch_sell_to = oldvalue['old_best_bch_sell_to']
-		best_ltc_sell_to = oldvalue['old_best_ltc_sell_to']
-		best_xrp_sell_to = oldvalue['old_best_xrp_sell_to']
-		best_dash_sell_to = oldvalue['old_best_dash_sell_to']
+		best_btc_buy_from = oldsoup['best_btc_buy_from']
+		best_eth_buy_from = oldsoup['best_eth_buy_from']
+		best_bch_buy_from = oldsoup['best_bch_buy_from']
+		best_ltc_buy_from = oldsoup['best_ltc_buy_from']
+		best_xrp_buy_from = oldsoup['best_xrp_buy_from']
+		best_neo_buy_from = oldsoup['best_neo_buy_from']
+		best_xlm_buy_from = oldsoup['best_xlm_buy_from']
+		best_omg_buy_from = oldsoup['best_omg_buy_from']
+		best_req_buy_from = oldsoup['best_req_buy_from']
+		best_dash_buy_from = oldsoup['best_dash_buy_from']
+		best_btc_sell_to = oldsoup['best_btc_sell_to']
+		best_eth_sell_to = oldsoup['best_eth_sell_to']
+		best_bch_sell_to = oldsoup['best_bch_sell_to']
+		best_ltc_sell_to = oldsoup['best_ltc_sell_to']
+		best_xrp_sell_to = oldsoup['best_xrp_sell_to']
+		best_neo_sell_to = oldsoup['best_neo_sell_to']
+		best_xlm_sell_to = oldsoup['best_xlm_sell_to']
+		best_omg_sell_to = oldsoup['best_omg_sell_to']
+		best_req_sell_to = oldsoup['best_req_sell_to']
+		best_dash_sell_to = oldsoup['best_dash_sell_to']
 	
 		error(e)
 
 
-	coinsoup['btcx_error'] = btcx_err
+	
 	coinsoup['buyucoin_error'] = buyucoin_err
 	coinsoup['coindelta_error'] = coindelta_err
 	coinsoup['coinome_error'] = coinome_err
@@ -907,6 +869,7 @@ def scrape_data():
 	coinsoup['pocketbits_error'] = pocketbits_err
 	coinsoup['unocoin_error'] = unocoin_err
 	coinsoup['zebpay_error'] = zebpay_err
+	coinsoup['bitbns_error'] = bitbns_err
 
 	coinsoup['best_btc_buy'] = best_btc_buy
 	coinsoup['best_btc_sell'] = best_btc_sell
@@ -920,6 +883,14 @@ def scrape_data():
 	coinsoup['best_xrp_sell'] = best_xrp_sell
 	coinsoup['best_dash_buy'] = best_dash_buy
 	coinsoup['best_dash_sell'] = best_dash_sell
+	coinsoup['best_neo_buy'] = best_neo_buy
+	coinsoup['best_neo_sell'] = best_neo_sell
+	coinsoup['best_xlm_buy'] = best_xlm_buy
+	coinsoup['best_xlm_sell'] = best_xlm_sell
+	coinsoup['best_omg_buy'] = best_omg_buy
+	coinsoup['best_omg_sell'] = best_omg_sell
+	coinsoup['best_req_buy'] = best_req_buy
+	coinsoup['best_req_sell'] = best_req_sell
 
 
 	coinsoup['best_btc_buy_from'] = best_btc_buy_from
@@ -934,6 +905,14 @@ def scrape_data():
 	coinsoup['best_xrp_sell_to'] = best_xrp_sell_to
 	coinsoup['best_dash_buy_from'] = best_dash_buy_from
 	coinsoup['best_dash_sell_to'] = best_dash_sell_to
+	coinsoup['best_neo_buy_from'] = best_neo_buy_from
+	coinsoup['best_neo_sell_to'] = best_neo_sell_to
+	coinsoup['best_xlm_buy_from'] = best_xlm_buy_from
+	coinsoup['best_xlm_sell_to'] = best_xlm_sell_to
+	coinsoup['best_omg_buy_from'] = best_omg_buy_from
+	coinsoup['best_omg_sell_to'] = best_omg_sell_to
+	coinsoup['best_req_buy_from'] = best_req_buy_from
+	coinsoup['best_req_sell_to'] = best_req_sell_to
 
 
 
@@ -950,7 +929,6 @@ def scrape_data():
 			
 	except Exception as e:
 		print('some exception occured in writing in file')
-		
 		error(e)    
 	
 

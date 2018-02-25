@@ -2,17 +2,46 @@ body{
 			color: #808080;
 			}
 			.card-title{
-			margin-left: 15px;
-			margin-top: 15px;
-			float: left;
-			font-size: 18px;
+				text-align: center;
+				margin-left: 15px;
+				padding-top: 15px;
+				float: center;
+				font-size: 18px;
+				color: #000
+			}
+			.mdl-layout__tab-panel.is-active{
+				margin-top: 0%;
+				padding-top: 0%;
+				}
+			
+			.mdl-layout__header .mdl-layout__drawer-button{
+
+			background-color: #616161;
+
+			}
+
+
+			.mdl-layout.is-upgraded .mdl-layout__tab.is-active{
+				color: #000;
 			}
 			.mdl-layout__header-row {
 			padding-left: 59px;
+			background-color: #616161;
 			}
 			/* resizing tab bar container*/
 			.mdl-layout__tab-bar-container{
 				height: 60px;
+				
+			}
+			.mdl-layout__tab-bar{
+				
+				background-color: #e0e0e0;
+			}
+			.mdl-layout__tab{
+				color: #000
+			}
+			.mdl-layout__tab .is-active{
+				color: #000
 			}
 
 			/*increasing tab size and vertical position of TEXT */
@@ -70,12 +99,10 @@ body{
 			font-size: 15px;
 			float: right;
 			}
-			.best_card{
-			background-color: #B2DFDB;
-			}
+			
 			.drawer-head{
 			height: 124px;
-			background-color: #607D8B;
+			background-color: #616161;
 			width: 100%;
 			}
 			.drawer-head-content{
@@ -113,4 +140,19 @@ body{
 			{
 			text-decoration : none;
 			color : #000;
+			}
+
+			.best_card{
+				background-color: #e0e0e0;
+				
+				margin-left: 3%;
+				margin-right: 3%;
+				margin-top: 3%;
+				border-top-left-radius: 10px;
+				border-bottom-right-radius: 10px;
+			}
+
+			.normal_card{
+				border-bottom-style: solid;
+				border-bottom-color: #e0e0e0;
 			}
